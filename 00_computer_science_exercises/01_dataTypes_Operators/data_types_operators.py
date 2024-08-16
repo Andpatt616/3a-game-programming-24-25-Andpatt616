@@ -53,3 +53,27 @@ print(high_score)
 
 # PRINTING VARIABLES INSIDE OF STRINGS
 print(f"Hello {playerName}. Your new high score is {highScore}.\n")
+
+# ARITHMETIC OPERATORS
+myInt = 4
+myFloat = 3.75
+myNum = 0
+
+#addition
+myInt = 9 + 2
+myFloat = 9.75 + 2.0
+
+myInt = myInt + 5
+
+myNum = myInt + myFloat
+# When you add an Int and a float together, the answer becomes a float
+
+# subtraction
+myNum = myInt - myFloat
+myInt = myFloat - 1.25
+
+# Multiplication
+myNum = myInt * myFloat
+
+# Division
+myNumber = myInt / myFloat # first is numerator, second num is denominator
