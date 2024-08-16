@@ -44,3 +44,8 @@ print(high_score)
 print(car_speed)
 print(hasAxe)
 print(player_dialoge)
+
+# printing variables and expressions to console / screen
+print(high_score + 5024)
+print(26 * 254)
+print(high_score)
