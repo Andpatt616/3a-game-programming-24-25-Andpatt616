@@ -31,3 +31,16 @@ isPurple = False # boolean data type
 
 playerName = "Andrew Patton" # string data type
 player_dialoge = "Hello there" # string data type
+
+# ASSIGN NEW VALUES
+playerName = "Paul goodman"
+car_speed = 2.34
+
+# DATA TYPES CAN CHANGE, BE CAREFUL
+hasAxe = 3.67
+
+# printing Variables to Console / Screen
+print(high_score)
+print(car_speed)
+print(hasAxe)
+print(player_dialoge)
