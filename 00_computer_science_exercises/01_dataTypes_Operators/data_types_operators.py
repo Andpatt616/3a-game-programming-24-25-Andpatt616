@@ -49,3 +49,7 @@ print(player_dialoge)
 print(high_score + 5024)
 print(26 * 254)
 print(high_score)
+
+
+# PRINTING VARIABLES INSIDE OF STRINGS
+print(f"Hello {playerName}. Your new high score is {highScore}.\n")
