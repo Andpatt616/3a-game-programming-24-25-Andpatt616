@@ -17,3 +17,17 @@
 # VARIABLES CANNOT START WITH A NUMBER
 # camelCaseVariableNames
 # snake_case_variable_names
+
+# DECLARING VARIABLES AND ASSIGNING VALUES
+
+high_score = 83745512 # int data types
+highScore = 304872612 # int data types
+
+carSpeed = 123.2341 # float data type, miles per hour
+car_speed = 5.29342 # float data type, miles per hour
+
+hasAxe = True # boolean data type
+isPurple = False # boolean data type
+
+playerName = "Andrew Patton" # string data type
+player_dialoge = "Hello there" # string data type
