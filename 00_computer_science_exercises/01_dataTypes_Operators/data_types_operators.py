@@ -77,3 +77,25 @@ myNum = myInt * myFloat
 
 # Division
 myNumber = myInt / myFloat # first is numerator, second num is denominator
+
+# MODULUS (MODULO) % -- Returns REMAINDER after dividing.
+# MOST COMMON USE FOR MADULUS IS DETERMINING EVEN / ODD NUMBERS
+numStudents = 6
+numSlicesPizza = 36
+
+leftOvers = numSlicesPizza % numStudents
+print(leftOvers)
+
+# EXPONENTS **
+numSquared = 5 ** 2 # 5 is base, 2 is the exponent.
+
+# FLOOR-DIVISION // -- Divides, throws out any decimal.
+myNum = myInt // myFloat
+
+# Addition-Assignment Operator - Mostly used for counters.
+myNum = 5
+myNum = myNum + 1 # Old-School Method
+myNum += 1 # New Hotness
+myNum *= 1
+myNum /= 1
+
