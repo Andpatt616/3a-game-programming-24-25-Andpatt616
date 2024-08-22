@@ -150,12 +150,27 @@ eyeColor = "Brown"
 
 # not -- RETURNS THE OPPOSITE VALUE OF THE STATEMENT.
 a = 7
-print(a == 7)
-print(not(not (a == 7)))
+# print(a == 7)
+# print(not(not (a == 7)))
 
 # COMBINING LOGICAL OPERATORS
 # print(a == 7 and hasKey == True or isCloud == True)
 # True and
 
-
 # IDENTITY OPERATORS
+g = 1.0
+h = 1.0
+i = g
+print(g is h)
+print(i is h)
+print(i is not 1.0)
+print(i is not g)
+
+# MEMBERSHIP OPERATORS
+fruits = ["apple", "banana", "tomato"]
+print("banana" in fruits)
+print("potato" in fruits)
+
+
+
+
