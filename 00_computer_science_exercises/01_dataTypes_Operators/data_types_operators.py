@@ -120,17 +120,38 @@ x = 12.0
 
 # NOT-EQUAL TO != Are the two values NOT equal?
 # Return True or False based on evaluation.
-print(x != 12)
+# print(x != 12)
 
 # GREATER THAN / GREATER-THAN-OR-EQUAL TO
-print(5 > 3) # Greater Than
-print(12 >= 2) # Greater Than or equal To
+# print(5 > 3) # Greater Than
+# print(12 >= 2) # Greater Than or equal To
 
 # LESS THAN / LESS-THAN-OR-EQUAL TO
-print(5 < 3) # LESS Than
-print(12 <= 2) # LESS Than or equal To
-
+# print(5 < 3) # LESS Than
+# print(12 <= 2) # LESS Than or equal To
 
 # LOGICAL OPERATORS
+# and -- ALL CONDITIONS MUST BE TRUE FOR THE ENTIRE STATMENT TO BE TRUE.
+age = 16
+height= 67.2
+eyeColor = "Brown"
+# In order to ride the Teacups, you must be at least 18 years old and at least 60" tall
+# print(age >= 18 and height >= 60)
+# print(age >= 18 and height >= 60 and eyeColor == "Blue")
+# ALWAYS CHECK FOR THE MOST-LIKELY TO BE FALSE CONDITION FIRST!!!!!
+# print(defeatedBoss == True and level > 5 and hasBlueKey == True)
+
+
+# or -- AT LEAST ONE CONDITION MUST BE TRUE FOR THE ENTIRE STATMENT TO BE TRUE
+# print(age >= 18 or height >= 60)
+# print(age >= 18 or height >= 60 or eyeColor == "Blue")
+# ALWAYS CHECK FOR THE MOST-LIKELY TO BE TRUE CONDITION FIRST!!!!!
+# print(defeatedBoss == True or level > 5 or hasBlueKey == True)
+
+# not -- RETURNS THE OPPOSITE VALUE OF THE STATEMENT.
+a = 7
+print(a == 7)
+print(not(not (a == 7)))
+
 
 # IDENTITY OPERATORS
