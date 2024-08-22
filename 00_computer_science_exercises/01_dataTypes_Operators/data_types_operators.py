@@ -45,10 +45,10 @@ newFloat = 4.0
 newString = "Skibidi Toilet"
 newBool = False
 
-print(type(newInt))
-print(type(newFloat))
-print(type(newString))
-print(type(newBool))
+# print(type(newInt))
+# print(type(newFloat))
+# print(type(newString))
+# print(type(newBool))
 
 # printing Variables to Console / Screen
 # print(high_score)
@@ -113,4 +113,24 @@ myNum /= 1
 
 # COMPARISON OPERATORS
 
+# IS-EQUAL-TO == Are the two values equal to each other?
+# Returnes True or False based on evaluation.
+x = 12.0
+# print(x == 5)
+
+# NOT-EQUAL TO != Are the two values NOT equal?
+# Return True or False based on evaluation.
+print(x != 12)
+
+# GREATER THAN / GREATER-THAN-OR-EQUAL TO
+print(5 > 3) # Greater Than
+print(12 >= 2) # Greater Than or equal To
+
+# LESS THAN / LESS-THAN-OR-EQUAL TO
+print(5 < 3) # LESS Than
+print(12 <= 2) # LESS Than or equal To
+
+
 # LOGICAL OPERATORS
+
+# IDENTITY OPERATORS
