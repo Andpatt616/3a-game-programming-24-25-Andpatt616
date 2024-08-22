@@ -153,5 +153,9 @@ a = 7
 print(a == 7)
 print(not(not (a == 7)))
 
+# COMBINING LOGICAL OPERATORS
+# print(a == 7 and hasKey == True or isCloud == True)
+# True and
+
 
 # IDENTITY OPERATORS
