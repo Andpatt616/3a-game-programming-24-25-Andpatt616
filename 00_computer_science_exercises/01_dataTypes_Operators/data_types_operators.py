@@ -39,20 +39,31 @@ car_speed = 2.34
 # DATA TYPES CAN CHANGE, BE CAREFUL
 hasAxe = 3.67
 
+# Printing Data Types
+newInt = 3
+newFloat = 4.0
+newString = "Skibidi Toilet"
+newBool = False
+
+print(type(newInt))
+print(type(newFloat))
+print(type(newString))
+print(type(newBool))
+
 # printing Variables to Console / Screen
-print(high_score)
-print(car_speed)
-print(hasAxe)
-print(player_dialoge)
+# print(high_score)
+# print(car_speed)
+# print(hasAxe)
+# print(player_dialoge)
 
 # printing variables and expressions to console / screen
-print(high_score + 5024)
-print(26 * 254)
-print(high_score)
+# print(high_score + 5024)
+# print(26 * 254)
+# print(high_score)
 
 
 # PRINTING VARIABLES INSIDE OF STRINGS
-print(f"Hello {playerName}. Your new high score is {highScore}.\n")
+# print(f"Hello {playerName}. Your new high score is {highScore}.\n")
 
 # ARITHMETIC OPERATORS
 myInt = 4
@@ -84,7 +95,7 @@ numStudents = 6
 numSlicesPizza = 36
 
 leftOvers = numSlicesPizza % numStudents
-print(leftOvers)
+# print(leftOvers)
 
 # EXPONENTS **
 numSquared = 5 ** 2 # 5 is base, 2 is the exponent.
@@ -99,3 +110,7 @@ myNum += 1 # New Hotness
 myNum *= 1
 myNum /= 1
 
+
+# COMPARISON OPERATORS
+
+# LOGICAL OPERATORS
