@@ -17,3 +17,16 @@ if color == "Blue":
     print("The sky is blue.\n")
 
 # CHEAT CODE FOR IF STATEMENTS THAT USE BOOLEANS.
+if likesPineapplesOnPizza:
+    print("Gross")
+
+# What if we want something different to happened?
+if color == "Red": # COMMON ERROR FOR STUDENTS IS USING = instead of ==.
+    print("Your shirt is the correct uniform color.\n")
+else:
+    print("Your shirt is not the correct uniform color\n")
+
+if height == 7:
+    print("Your tall enough to get on the ride")
+else:
+    print("Your are not tall enough to get on the ride")
