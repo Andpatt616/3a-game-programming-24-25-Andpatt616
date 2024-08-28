@@ -161,15 +161,14 @@ a = 7
 g = 1.0
 h = 1.0
 i = g
-print(g is h)
-print(i is h)
-print(i is not 1.0)
-print(i is not g)
+#print(g is h)
+#print(i is not 1.0)
+#print(i is not g)
 
 # MEMBERSHIP OPERATORS
 fruits = ["apple", "banana", "tomato"]
-print("banana" in fruits)
-print("potato" in fruits)
+#print("banana" in fruits)
+#print("potato" in fruits)
 
 
 
